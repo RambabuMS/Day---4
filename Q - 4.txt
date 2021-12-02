@@ -466,8 +466,7 @@ const friends = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAKchandr
 
 console.log(friends.join(","));
 
-// 5. Find the friends names who has letter ‘a’ and return the list.
-// 6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
+// 5. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
  var friends = [
                                       "Mari",
                                       "MaryJane",
@@ -481,7 +480,7 @@ let avg = friends.join('').length / friends.length;
 
 console.log(avg);
 
-// 7. Find the names and return the list starting with letter M.
+// 6. Find the names and return the list starting with letter M.
 var friends = [
 "Gabbar",
 "Rajinikanth",
@@ -495,7 +494,7 @@ var friends = [
 let startswithM = friends.filter((friends)=> friends.startsWith("M"));
 console.log(startswithM);
 
-// 8. Find the name with max characters and return the name.
+// 7. Find the name with max characters and return the name.
 var friends = [
 "Gabbar",
 "Rajinikanth",
@@ -514,7 +513,7 @@ var friends = [
 
 console.log(longest_string(friends));
 
-// 9. Find the name with min characters and return the name.
+// 8. Find the name with min characters and return the name.
 
 var friends = [
 "Gabbar",
@@ -532,15 +531,6 @@ console.log(
 
 
 
-// Find the average in the array below.
-// Make sure you add only the numbers and do avg.
-
-//  const friendsInfo = [6, 12, "Mari", 1, true, "Munnabai", "200", "CaptainAmerica", 8, 10];
- 
-
-
-
-// — — — — — — — — — — — — — — — -
 // Print the contents of the input variable
 var input = [
 ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
